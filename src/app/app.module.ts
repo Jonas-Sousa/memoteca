@@ -10,14 +10,17 @@ import { FormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from './components/pensamentos/listar-pensamento/listar-pensamento.component';
 import { PensamentoComponent } from './components/pensamentos/pensamento/pensamento.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
+    feature/componente-Pensamento
     ListarPensamentoComponent,
     PensamentoComponent
+    ListarPensamentoComponent
   ],
   imports: [
     BrowserModule,

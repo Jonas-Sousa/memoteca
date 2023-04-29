@@ -25,7 +25,6 @@ export class ListarPensamentoComponent implements OnInit {
     },
 
   ]
-
   constructor() { }
 
   ngOnInit(): void {
