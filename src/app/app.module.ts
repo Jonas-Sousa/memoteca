@@ -17,9 +17,8 @@ import { PensamentoComponent } from './components/pensamentos/pensamento/pensame
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    feature/componente-Pensamento
     ListarPensamentoComponent,
-    PensamentoComponent
+    PensamentoComponent,
     ListarPensamentoComponent
   ],
   imports: [
