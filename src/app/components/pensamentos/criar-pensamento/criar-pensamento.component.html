@@ -4,7 +4,7 @@
     </header>
     <form>
         <label for="pensamento">Pensamento</label>
-        <input 
+        <input
             type="textarea"
             class="input"
             id="pensamento"
@@ -14,7 +14,7 @@
 
         >
         <label for="autoria">Autoria ou fonte</label>
-        <input 
+        <input
             type="text"
             class="input"
             id="autoria"
@@ -26,7 +26,7 @@
         <div class="container-radio">
             <div class="radio-modelo">
                 <label for="modelo1">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo1"
                         value="modelo1"
@@ -45,10 +45,10 @@
                     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
                 </div>
             </div>
-            
+
             <div class="radio-modelo">
                 <label for="modelo2">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo2"
                         value="modelo2"
@@ -67,10 +67,10 @@
                     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
                 </div>
             </div>
-            
+
             <div class="radio-modelo">
                 <label for="modelo3">
-                    <input 
+                    <input
                         type="radio"
                         id="modelo3"
                         value="modelo3"
@@ -92,7 +92,13 @@
         </div>
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button (click)="cancelarPensamento()" class="botao">Cancelar</button>
+            <button
+              (click)="cancelarPensamento()"
+              routerLink="/listarPensamento"
+              class="botao"
+            >
+              Cancelar
+            </button>
         </div>
     </form>
 
