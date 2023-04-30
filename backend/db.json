@@ -1,12 +1,6 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom ",
-      "autoria": "Fabiola",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
       "conteudo": "Que bom que você fez isso",
       "autoria": "Julio",
@@ -29,12 +23,6 @@
       "autoria": "rota",
       "modelo": "modelo2",
       "id": 5
-    },
-    {
-      "conteudo": "coisa com coisa é uma coisa coisada",
-      "autoria": "Jonas Sousa",
-      "modelo": "modelo2",
-      "id": 6
     }
   ]
 }
