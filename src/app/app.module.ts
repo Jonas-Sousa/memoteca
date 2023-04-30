@@ -1,3 +1,5 @@
+import { PensamentoComponent } from './components/pensamentos/pensamento/pensamento.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,12 +19,13 @@ import { ListarPensamentoComponent } from './components/pensamentos/listar-pensa
     RodapeComponent,
     CriarPensamentoComponent,
     ListarPensamentoComponent,
-    ListarPensamentoComponent
+    PensamentoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
