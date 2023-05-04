@@ -1,0 +1,16 @@
+.carregar-mais {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.mensagem-center {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=botao-carregar-mais.component.css.map */
