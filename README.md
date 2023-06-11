@@ -15,6 +15,8 @@ O projeto memoteca é um site que exibe cards de pensamentos, você pode criar u
 
 ## 📱Tecnologias utilizadas
 1. [Angular](https://angular.io/cli)
+2. [Router](https://angular.io/guide/router)
+3. [Observables](https://angular.io/guide/observables)
 
 ## 🎯Propósito
 O propósito deste projeto em Angular é permitir uma experiência de aprendizado prático e abrangente do framework Angular. Foi criado como um projeto acadêmico em colaboração com a Alura, com o objetivo de explorar e dominar os conceitos essenciais do Angular.
