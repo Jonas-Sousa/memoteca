@@ -4,7 +4,7 @@
 
 O projeto memoteca é um site que exibe cards de pensamentos, você pode criar um clicando no 'novo pensamento' e salvar-lo no mural junto com os demais cards.
 
-## Índice 
+## 📌Índice 
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#proposito">Propósito</a>
 - <a href="#funcionalidades-do-projeto">Funcionalidades do Projeto</a>
